@@ -1,0 +1,12 @@
+/.metadata
+/HelloApplication/.mvn/wrapper
+/Consumer/.mvn/wrapper/*.jar
+*.jar
+/EurekaServer/.mvn/wrapper
+/Consumer/.mvn/wrapper
+/Consumer/mvnw
+/EurekaServer/mvnw
+/HelloApplication/mvnw
+/Consumer/mvnw.cmd
+/EurekaServer/mvnw.cmd
+/HelloApplication/mvnw.cmd
