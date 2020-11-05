@@ -9,10 +9,10 @@ import org.springframework.web.client.RestTemplate;
 public class ConsumerController {
 
 	@Autowired
-	private RestTemplate restTemplate;
+	private HelloService helloService;
 
 	@GetMapping(value = "/ribbon-consumer")
 	public String helloConsumer() {
-		return restTemplate.getForEntity("http://HELLO-SERVICE/hello", String.class).getBody();
+		return helloService.helloService();
 	}
 }
